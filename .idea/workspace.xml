@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce7159ee-49f0-49ab-98e5-64c38048bfec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/trileuco/app/swapi/config/SpringDocConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trileuco/app/swapi/controller/SwapiProxyControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trileuco/app/swapi/service/PersonInfoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trileuco/app/swapi/service/SwapiServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trileuco/app/swapi/controller/SwapiProxyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trileuco/app/swapi/controller/SwapiProxyController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,33 +55,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AppApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.All in telemetry-receiver.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppApplicationTests.checkMavType_OK.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.AppApplicationTests.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.AppApplicationTests.testReadMappingFile.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppApplicationTests.testUdpStreamCommunication.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppApplicationTests.testUdpStreamInitialization.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProducerTests.initProducer_NoAvailableBroker_Exception.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.ProducerTests.testInitProducerWithException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.app in telemetry-receiver.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.com.wingcopter.app in telemetry-receiver.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.java in telemetry-receiver.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.telemetry-receiver [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.trileuco-app [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/cesar/WingcopterProjects/IdeaProjects/trileuco-app&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AppApplication.executor": "Run",
+    "JUnit.All in telemetry-receiver.executor": "Run",
+    "JUnit.AppApplicationTests.checkMavType_OK.executor": "Debug",
+    "JUnit.AppApplicationTests.executor": "Coverage",
+    "JUnit.AppApplicationTests.testReadMappingFile.executor": "Run",
+    "JUnit.AppApplicationTests.testUdpStreamCommunication.executor": "Run",
+    "JUnit.AppApplicationTests.testUdpStreamInitialization.executor": "Run",
+    "JUnit.PersonInfoServiceTest.executor": "Run",
+    "JUnit.PersonInfoServiceTest.getPersonInfoByName_ReturnsPersonInfo_WhenPersonExists.executor": "Run",
+    "JUnit.ProducerTests.initProducer_NoAvailableBroker_Exception.executor": "Debug",
+    "JUnit.ProducerTests.testInitProducerWithException.executor": "Run",
+    "JUnit.SwapiProxyControllerTest.executor": "Run",
+    "JUnit.SwapiServiceImplTest.executor": "Run",
+    "JUnit.SwapiServiceImplTest.getPersonByName_ReturnsSwapiPerson_WhenRequestIsSuccessful.executor": "Run",
+    "JUnit.SwapiServiceImplTest.getPlanetByUrl_Exception.executor": "Run",
+    "JUnit.SwapiServiceImplTest.getVehicleByUrl_Exception.executor": "Run",
+    "JUnit.SwapiServiceImplTest.testGetFilmByUrl_Exception.executor": "Run",
+    "JUnit.SwapiServiceImplTest.testGetPersonByName.executor": "Run",
+    "JUnit.SwapiServiceImplTest.testGetPersonByName_HttpError.executor": "Run",
+    "JUnit.SwapiServiceImplTest.testGetPersonByName_IOException.executor": "Run",
+    "JUnit.SwapiServiceImplTest.testGetPlanetByUrl_Exception.executor": "Run",
+    "JUnit.SwapiServiceImplTest.testGetVehicleByUrl_Exception.executor": "Run",
+    "JUnit.app in telemetry-receiver.executor": "Run",
+    "JUnit.com.trileuco.app.swapi in trileuco-app.executor": "Coverage",
+    "JUnit.com.wingcopter.app in telemetry-receiver.executor": "Run",
+    "JUnit.java in telemetry-receiver.executor": "Run",
+    "JUnit.swapi in trileuco-app.executor": "Run",
+    "Maven.telemetry-receiver [install].executor": "Run",
+    "Maven.trileuco-app [install].executor": "Run",
+    "Maven.trileuco-app [spring-boot:run].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/cesar/WingcopterProjects/IdeaProjects/trileuco-app",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/px4" />
@@ -93,56 +118,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppApplicationTests.testUdpStreamCommunication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="telemetry-receiver" />
+    <configuration name="SwapiServiceImplTest.getVehicleByUrl_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trileuco-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wingcopter.app.*" />
+          <option name="PATTERN" value="com.trileuco.app.swapi.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wingcopter.app" />
-      <option name="MAIN_CLASS_NAME" value="com.wingcopter.app.AppApplicationTests" />
-      <option name="METHOD_NAME" value="testUdpStreamCommunication" />
+      <option name="PACKAGE_NAME" value="com.trileuco.app.swapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.trileuco.app.swapi.service.SwapiServiceImplTest" />
+      <option name="METHOD_NAME" value="getVehicleByUrl_Exception" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppApplicationTests.testUdpStreamInitialization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="telemetry-receiver" />
+    <configuration name="SwapiServiceImplTest.testGetVehicleByUrl_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trileuco-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wingcopter.app.*" />
+          <option name="PATTERN" value="com.trileuco.app.swapi.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wingcopter.app" />
-      <option name="MAIN_CLASS_NAME" value="com.wingcopter.app.AppApplicationTests" />
-      <option name="METHOD_NAME" value="testUdpStreamInitialization" />
+      <option name="PACKAGE_NAME" value="com.trileuco.app.swapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.trileuco.app.swapi.service.SwapiServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetVehicleByUrl_Exception" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app in telemetry-receiver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="telemetry-receiver" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/com/wingcopter/app" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.wingcopter.app in telemetry-receiver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="telemetry-receiver" />
+    <configuration name="com.trileuco.app.swapi in trileuco-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trileuco-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wingcopter.app.*" />
+          <option name="PATTERN" value="com.trileuco.app.swapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wingcopter.app" />
+      <option name="PACKAGE_NAME" value="com.trileuco.app.swapi" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swapi in trileuco-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trileuco-app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/trileuco/app/swapi" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,10 +175,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AppApplication" />
-        <item itemvalue="JUnit.com.wingcopter.app in telemetry-receiver" />
-        <item itemvalue="JUnit.app in telemetry-receiver" />
-        <item itemvalue="JUnit.AppApplicationTests.testUdpStreamInitialization" />
-        <item itemvalue="JUnit.AppApplicationTests.testUdpStreamCommunication" />
+        <item itemvalue="JUnit.swapi in trileuco-app" />
+        <item itemvalue="JUnit.com.trileuco.app.swapi in trileuco-app" />
+        <item itemvalue="JUnit.SwapiServiceImplTest.testGetVehicleByUrl_Exception" />
+        <item itemvalue="JUnit.SwapiServiceImplTest.getVehicleByUrl_Exception" />
       </list>
     </recent_temporary>
   </component>
@@ -204,5 +229,8 @@
       <FILTER>com.wingcopter.app.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TelemetryReceiverService$app_in_telemetry_receiver.ic" NAME="app in telemetry-receiver Coverage Results" MODIFIED="1702371579195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/trileuco_app$com_trileuco_app_swapi_in_trileuco_app.ic" NAME="com.trileuco.app.swapi in trileuco-app Coverage Results" MODIFIED="1703103272612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.trileuco.app.swapi.*</FILTER>
+    </SUITE>
   </component>
 </project>
